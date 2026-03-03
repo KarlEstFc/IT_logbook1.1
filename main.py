@@ -72,6 +72,7 @@ def main():
             print(msg)
 
         elif valik == '7':
+            print("...")
             fn = input("Failinimi (nt sample_import.csv): ")
             print(book.import_from_csv(fn))
 
