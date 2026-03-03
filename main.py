@@ -4,6 +4,8 @@ from models import LogBook
 def main():
     book = LogBook()
 
+    print("Tere")
+
     while True:
         print("\n--- IT HOOLDUSPÄEVIK ---")
         print("1. Lisa uus")
